@@ -7,10 +7,9 @@ int main(){
 
     cin >> t;
 
-    while(t){
+    while(t--){
         cin >> n >> m;
         cout << (int)((n / 3) * (m / 3)) << endl;
-        t--;
     }
 
     return 0;
